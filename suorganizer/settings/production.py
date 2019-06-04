@@ -13,8 +13,8 @@ from .base import *
 DEBUG = False
 TEMPLATE_DEBUG = False
 
-SECRET_KEY = os.environ.get('SECRET_KEY')
-
+#SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = 'l)zht&^pddidsyqe$+09%se1*ba2#b_q-!j0^v$(-3c-=-vmq4'
 ALLOWED_HOSTS = ['*']
 
 DATABASES = {
